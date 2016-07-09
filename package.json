@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/tleunen/tommyleunen.com#readme",
   "scripts": {
-    "deploy": "surge ./ tleunen.surge.sh"
+    "deploy": "surge ."
   }
 }

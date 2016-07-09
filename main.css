@@ -1,0 +1,111 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #000015;
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 1.6rem;
+}
+
+a {
+    color: #336699;
+    text-decoration: none;
+}
+
+#profile {
+    position: relative;
+}
+
+.name {
+    font-size: 7rem;
+    color: #fefefe;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+}
+
+.name span {
+    margin: 0 40px;
+}
+
+.name span:first-child {
+    margin-right: 100px;
+}
+
+.name span:last-child {
+    margin-left: 100px;
+}
+
+#profile img {
+    margin-right: 3px;
+    border-radius: 150px;
+    box-shadow: 0px 0px 30px rgba(255,255,255,0.5);
+}
+
+#about {
+    position:relative;
+    margin-top: 50px;
+}
+
+#about span {
+    font-size: 3rem;
+    top:0; left:0;
+}
+
+#social {
+    margin-top: 50px;
+}
+
+#social p {
+    margin: 0;
+    padding: 0;
+}
+
+.socialnet {
+    list-style: none;
+    text-align: center;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.socialnet li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.socialnet a {
+    font-size: 2rem;
+}
+
+@media (max-width: 767px) {
+    #profile img {
+        width: 125px;
+        height: 125px;
+    }
+    #profile .name {
+        font-size: 4rem;
+        top: 40px;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        margin-top: 40px;
+    }
+    #about {
+        margin-top: 30px;
+    }
+
+    #profile .name {
+        position: static;
+        margin-top: 20px;
+    }
+
+    #profile .name span {
+        margin: 10px !important;
+    }
+}

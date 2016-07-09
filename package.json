@@ -1,0 +1,23 @@
+{
+  "name": "tommyleunen.com",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tleunen/tommyleunen.com.git"
+  },
+  "author": "Tommy Leunen <tommy.leunen@gmail.com> (http://tommyleunen.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tleunen/tommyleunen.com/issues"
+  },
+  "homepage": "https://github.com/tleunen/tommyleunen.com#readme",
+  "scripts": {
+    "deploy": "surge ./ tleunen.surge.sh"
+  }
+}

@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "deploy": "surge ."
   },
   "repository": "tleunen/tommyleunen.com",
   "author": "Tommy Leunen <tommy.leunen@gmail.com> (http://tommyleunen.com)",
@@ -12,8 +11,5 @@
   "bugs": {
     "url": "https://github.com/tleunen/tommyleunen.com/issues"
   },
-  "homepage": "https://github.com/tleunen/tommyleunen.com#readme",
-  "devDependencies": {
-    "surge": "^0.18.0"
-  }
+  "homepage": "https://github.com/tleunen/tommyleunen.com#readme"
 }
